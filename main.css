@@ -43,7 +43,7 @@ p {
 
 .header {
     width: 190mm;
-    height: 150px;
+    height: 130px;
     background-color: rgb(178, 173, 224);
     position: absolute;
     z-index: 1;
@@ -56,13 +56,13 @@ p {
 }
 
 #fio {
-    font-size: 27px;
+    font-size: 25px;
     font-weight: 500;
-    padding: 25px 0 10px 0;
+    padding: 15px 0 10px 0;
 }
 
 #spec {
-    font-size: 23px;
+    font-size: 22px;
     font-weight: 300;
     padding: 0 0 10px 0;
 }
@@ -163,7 +163,7 @@ a::after {
     width: 520px;
     height: auto;
     margin-left: 220px;
-    margin-top: 160px;
+    margin-top: 130px;
     padding: 0;
     position: absolute;
 
@@ -250,7 +250,9 @@ a::after {
     display: flex;
     justify-content: left;
     align-items: center;
+    margin-top: 30px;
 }
+
 
 .title-text {
     font-size: 20px;
@@ -259,4 +261,18 @@ a::after {
     font-weight: 600;
     color: rgb(46, 43, 73);
 
+}
+
+.page2{
+    font-size: 17px;
+    margin: 0;
+    text-decoration: underline;
+    font-weight: 600;
+    color:rgb(65, 61, 95);
+}
+
+.main-little-block2 {
+    font-size: 14px;
+    margin: 0 15px 15px 15px;
+    color: black;
 }
