@@ -240,3 +240,23 @@ a::after {
     margin: 5px;
     color: rgb(65, 61, 95);
 }
+
+/* ------------------------- PAGE 2 ---------------------- */
+
+.title-page2 {
+    width: 190mm;
+    height: 50px;
+    background-color: rgb(178, 173, 224);
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.title-text {
+    font-size: 20px;
+    margin: 15px;
+    text-decoration: none;
+    font-weight: 600;
+    color: rgb(46, 43, 73);
+
+}
