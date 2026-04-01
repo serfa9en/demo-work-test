@@ -146,6 +146,12 @@ a::after {
     color: black;
 }
 
+.temp-little-block-skills{
+    font-size: 12px;
+    margin: 5px;
+    color: black;
+}
+
 .temp {
     width: auto;
     height: 250px;
@@ -154,7 +160,7 @@ a::after {
 /* ---------- right -----------*/
 
 .right {
-    width: 500px;
+    width: 520px;
     height: auto;
     margin-left: 220px;
     margin-top: 160px;
@@ -164,16 +170,16 @@ a::after {
 }
 
 .main-text-block {
-    font-size: 20px;
-    margin: 5px;
+    font-size: 18px;
+    margin: 0;
     text-decoration: underline;
     font-weight: 600;
-    color:rgb(65, 61, 95)
+    color:rgb(65, 61, 95);
 }
 
 .main-little-block {
     font-size: 14px;
-    margin: 15px;
+    margin: 0 15px 15px 15px;
     color: black;
 }
 
@@ -181,3 +187,56 @@ a::after {
     margin: 5px;
 }
 
+.block-ul {
+    margin-top: -5px;
+}
+
+.block-ul ul {
+    list-style: none;
+    text-align: left;
+    color: rgb(0, 0, 0);
+    font-size: 12px;
+    margin-left: -10px;
+}
+
+.default-main ul{
+    list-style: none;
+    text-align: left;
+    margin-left: -20px;
+}
+
+.block-ul .check::marker {
+    content: "\2714  ";
+    color: rgb(65, 61, 95);
+}
+
+.block-ul .check{
+    color: rgb(65, 61, 95);
+}
+
+.block-ul .default::marker {
+    content: "◦  ";
+}
+
+.block-ul .default-main::marker {
+    content: "➛  ";
+}
+
+.github {
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.github img {
+    width: auto;
+    height: 15px;
+    margin: 5px;
+}
+
+.github a{
+    text-decoration: none;
+    width: auto;
+    font-size: 12px;
+    margin: 5px;
+    color: rgb(65, 61, 95);
+}
