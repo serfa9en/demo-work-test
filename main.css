@@ -102,7 +102,7 @@ p {
 /* ---------- header -----------*/
 
 .header {
-    width: 190mm;
+    width: 800px;
     height: 130px;
     background-color: rgb(178, 173, 224);
     position: absolute;
