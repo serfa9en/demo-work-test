@@ -11,7 +11,15 @@
   }
 </script>
 <body>
-  <button onclick="window.print()" class="no-print">Печать</button>
+  <div class="print-btn-container no-print">
+    <button onclick="printPage()" class="print-btn">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19 8H5a3 3 0 00-3 3v6h4v4h12v-4h4v-6a3 3 0 00-3-3zm-3 11H8v-5h8v5zm3-7a2 2 0 110-4 2 2 0 010 4z"/>
+        <path d="M17 17H7V5h10v12zm-8-2h6V7H9v8z"/>
+      </svg>
+      Печать / Сохранить в PDF
+    </button>
+  </div>
     <div class="page">
         <div class="header">
             <div class="text-header">
