@@ -102,7 +102,7 @@ p {
 /* ---------- header -----------*/
 
 .header {
-    width: 800px;
+    width: 190mm;
     height: 130px;
     background-color: rgb(178, 173, 224);
     position: absolute;
@@ -220,7 +220,7 @@ a::after {
 /* ---------- right -----------*/
 
 .right {
-    width: 600px;
+    width: 550px;
     height: auto;
     margin-left: 220px;
     margin-top: 130px;
@@ -304,7 +304,7 @@ a::after {
 /* ------------------------- PAGE 2 ---------------------- */
 
 .title-page2 {
-    width: 600px;
+    width: 190mm;
     height: 50px;
     background-color: rgb(178, 173, 224);
     display: flex;
