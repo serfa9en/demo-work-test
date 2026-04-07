@@ -31,6 +31,15 @@ body {
         margin: 0;
         box-shadow: none;
         page-break-after: always;
+        width: auto;
+        height: auto;
+    }
+    .no-print {
+        display: none !important;
+    }
+    @page {
+        size: A4;
+        margin: 0;
     }
 }
 
