@@ -304,7 +304,7 @@ a::after {
 /* ------------------------- PAGE 2 ---------------------- */
 
 .title-page2 {
-    width: 190mm;
+    width: 600px;
     height: 50px;
     background-color: rgb(178, 173, 224);
     display: flex;
