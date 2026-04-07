@@ -4,14 +4,72 @@
   <meta charset="UTF-8">
   <title>Беляева Мария</title>
   <link rel="stylesheet" href="main.css">
+  <style>
+    /* Стили для кнопки печати */
+    .print-btn-container {
+      position: fixed;
+      top: 20px;
+      right: 20px;
+      z-index: 1000;
+    }
+
+    .print-btn {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      padding: 14px 28px;
+      background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+      color: white;
+      border: none;
+      border-radius: 50px;
+      font-size: 16px;
+      font-weight: 600;
+      font-family: "Montserrat", sans-serif;
+      cursor: pointer;
+      box-shadow: 0 4px 15px rgba(102, 126, 234, 0.4);
+      transition: all 0.3s ease;
+      text-decoration: none;
+    }
+
+    .print-btn:hover {
+      transform: translateY(-2px);
+      box-shadow: 0 6px 20px rgba(102, 126, 234, 0.6);
+      background: linear-gradient(135deg, #764ba2 0%, #667eea 100%);
+    }
+
+    .print-btn:active {
+      transform: translateY(0);
+      box-shadow: 0 2px 10px rgba(102, 126, 234, 0.3);
+    }
+
+    .print-btn svg {
+      width: 20px;
+      height: 20px;
+      fill: white;
+    }
+
+    @media print {
+      .print-btn-container {
+        display: none !important;
+      }
+    }
+  </style>
+  <script>
+    function printPage() {
+      window.print();
+    }
+  </script>
 </head>
-<script>
-  function printPage() {
-    window.print();
-  }
-</script>
 <body>
-  <button onclick="window.print()" class="no-print">Печать</button>
+  <div class="print-btn-container no-print">
+    <button onclick="printPage()" class="print-btn">
+      <svg viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+        <path d="M19 8H5a3 3 0 00-3 3v6h4v4h12v-4h4v-6a3 3 0 00-3-3zm-3 11H8v-5h8v5zm3-7a2 2 0 110-4 2 2 0 010 4z"/>
+        <path d="M17 17H7V5h10v12zm-8-2h6V7H9v8z"/>
+      </svg>
+      Печать / Сохранить в PDF
+    </button>
+  </div>
     <div class="page">
         <div class="header">
             <div class="text-header">
